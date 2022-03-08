@@ -1,18 +1,38 @@
 .App {
-  text-align: center;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* text-align: center; */
+  max-width: 40em;
+  margin:0 auto;
+  margin-top: 1em;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+body {
+  background-color: #282c34;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  /* min-height: 100vh;
+  align-items: center;
+  justify-content: center; */
+}
+
+.HeaderTitle {
+  flex-grow: 10;
+  align-self: flex-start;
+}
+
+.PlusSign {
+  align-self: flex-end
+}
+
+.ListItemView {
+  margin-top: 0.6em;
+}
+
+.DragHandle {
+  padding-left: 0.5em;
+  padding-right: 1em;
 }
